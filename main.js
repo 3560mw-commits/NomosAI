@@ -411,7 +411,6 @@ function handleDocUpload(input) {
     const size = file.size > 1024 * 1024 ? (file.size / (1024 * 1024)).toFixed(1) + ' MB' : (file.size / 1024).toFixed(0) + ' KB';
     const icons = { PDF: '📜', DOCX: '📝', DOC: '📝', PNG: '🖼️', JPG: '🖼️', JPEG: '🖼️' };
     const ico = icons[ext] || '📄';
-<<<<<<< HEAD
 
     // Create an object URL so the file can be viewed/opened
     const objectURL = URL.createObjectURL(file);
@@ -476,24 +475,6 @@ function viewUploadedDoc(url, name, type) {
   document.body.appendChild(overlay);
 }
 
-=======
-    const row = document.createElement('div');
-    row.className = 'doc-row';
-    row.innerHTML = `
-      <div class="doc-ico">${ico}</div>
-      <div style="flex:1">
-        <div class="doc-row-name">${file.name}</div>
-        <div class="doc-row-meta">Uploaded just now · ${size}</div>
-      </div>
-      <div class="doc-chip ok">✓ Saved</div>`;
-    if (list) list.prepend(row);
-  });
-  input.value = '';
-  // Show a small toast
-  showToast('📁 ' + files.length + ' file' + (files.length > 1 ? 's' : '') + ' uploaded to Document Vault');
-}
-
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 // ── Simple toast notification ──
 function showToast(msg) {
   let toast = document.getElementById('nomosToast');
@@ -896,7 +877,6 @@ function injectHeroTip(chat) {
   else chat.appendChild(div);
 }
 
-<<<<<<< HEAD
 // Hero tip — inject into chat box as a conversation message
 function showHeroLegalTip() {
   const chat = document.querySelector('.hv-chat');
@@ -910,20 +890,6 @@ function showHeroLegalTip() {
   if (typing) chat.insertBefore(div, typing);
   else chat.appendChild(div);
   chat.scrollTop = chat.scrollHeight;
-=======
-// Hero tip modal
-function showHeroLegalTip() {
-  const overlay = document.getElementById('heroTipOverlay');
-  const body = document.getElementById('heroTipBody');
-  if (!overlay || !body) return;
-  body.textContent = getRandomTip();
-  overlay.classList.add('open');
-}
-function closeHeroTip(e) {
-  if (!e || e.target === document.getElementById('heroTipOverlay')) {
-    document.getElementById('heroTipOverlay').classList.remove('open');
-  }
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 }
 
 // ═══════════════════════════════════════════════

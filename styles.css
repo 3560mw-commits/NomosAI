@@ -125,11 +125,7 @@ input,select,textarea,button{font-family:var(--sans)}
 .ht-div{width:1px;height:30px;background:rgba(255,255,255,.1)}
 
 /* Hero Visual — AI Window */
-<<<<<<< HEAD
 .hero-visual{position:relative;height:640px;padding-bottom:80px}
-=======
-.hero-visual{position:relative;height:580px}
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 .hv-win{position:absolute;inset:0;border-radius:var(--r28);overflow:hidden;animation:flt 7s ease-in-out infinite}
 @keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
 .hv-winbar{display:flex;align-items:center;gap:10px;padding:13px 18px;border-bottom:1px solid var(--gbord);background:rgba(255,255,255,.02)}
@@ -165,24 +161,15 @@ input,select,textarea,button{font-family:var(--sans)}
 .hv-inputbar input::placeholder{color:var(--s400)}
 .hv-send{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--g400),var(--g200));border:none;cursor:pointer;font-size:.8rem;color:var(--n900);font-weight:700;display:flex;align-items:center;justify-content:center}
 /* Floating stat */
-<<<<<<< HEAD
 .hv-badge{position:absolute;bottom:-60px;left:-24px;border-radius:var(--r16);padding:13px 16px;display:flex;align-items:center;gap:12px;z-index:2;animation:flt2 5s ease-in-out 1s infinite}
-=======
-.hv-badge{position:absolute;bottom:24px;left:-24px;border-radius:var(--r16);padding:13px 16px;display:flex;align-items:center;gap:12px;z-index:2;animation:flt2 5s ease-in-out 1s infinite}
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 @keyframes flt2{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-10px) rotate(0deg)}}
 .hvb-icon{font-size:1.3rem}
 .hvb-label{font-size:.7rem;color:var(--s400)}
 .hvb-val{font-size:1rem;font-weight:700;color:#fff}
 .hvb-trend{font-size:.72rem;color:var(--suc);font-weight:600}
 /* Floating doc */
-<<<<<<< HEAD
 .hv-docbadge{position:absolute;bottom:-42px;right:-16px;border-radius:var(--r16);padding:11px 14px;display:flex;align-items:center;gap:10px;z-index:2;animation:flt3 6s ease-in-out .5s infinite}
 @keyframes flt3{0%,100%{transform:translateY(0) rotate(1deg)}50%{transform:translateY(-8px) rotate(0deg)}}
-=======
-.hv-docbadge{position:absolute;bottom:90px;right:-16px;border-radius:var(--r16);padding:11px 14px;display:flex;align-items:center;gap:10px;z-index:2;animation:flt3 6s ease-in-out .5s infinite}
-@keyframes flt3{0%,100%{transform:translateY(0) rotate(1deg)}50%{transform:translateY(-2px) rotate(0deg)}}
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 .docb-name{font-size:.78rem;font-weight:600;color:#fff}
 .docb-meta{font-size:.7rem;color:var(--s400)}
 .docb-chip{font-size:.68rem;font-weight:700;padding:3px 8px;border-radius:20px;background:rgba(251,191,36,.13);color:#fbbf24;border:1px solid rgba(251,191,36,.25);white-space:nowrap}
@@ -239,12 +226,9 @@ input,select,textarea,button{font-family:var(--sans)}
 .bc-logo-svg{width:52px;height:52px;border-radius:var(--r16);display:flex;align-items:center;justify-content:center;transition:transform .3s var(--ease)}
 .bc:hover .bc-logo-svg{transform:scale(1.08) rotate(-3deg)}
 
-<<<<<<< HEAD
 /* Court Activations — centered below Probono Network (column 2) */
 .bc-court-activations{grid-column:2}
 
-=======
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 /* ═══════════════════════════
    USER TYPES
 ═══════════════════════════ */
@@ -699,11 +683,7 @@ input,select,textarea,button{font-family:var(--sans)}
 .ht-div{width:1px;height:30px;background:rgba(255,255,255,.1)}
 
 /* Hero Visual — AI Window */
-<<<<<<< HEAD
 .hero-visual{position:relative;height:640px;padding-bottom:80px}
-=======
-.hero-visual{position:relative;height:580px}
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 .hv-win{position:absolute;inset:0;border-radius:var(--r28);overflow:hidden;animation:flt 7s ease-in-out infinite}
 @keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
 .hv-winbar{display:flex;align-items:center;gap:10px;padding:13px 18px;border-bottom:1px solid var(--gbord);background:rgba(255,255,255,.02)}
@@ -739,22 +719,14 @@ input,select,textarea,button{font-family:var(--sans)}
 .hv-inputbar input::placeholder{color:var(--s400)}
 .hv-send{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--g400),var(--g200));border:none;cursor:pointer;font-size:.8rem;color:var(--n900);font-weight:700;display:flex;align-items:center;justify-content:center}
 /* Floating stat */
-<<<<<<< HEAD
 .hv-badge{position:absolute;bottom:-60px;left:-24px;border-radius:var(--r16);padding:13px 16px;display:flex;align-items:center;gap:12px;z-index:2;animation:flt2 5s ease-in-out 1s infinite}
-=======
-.hv-badge{position:absolute;bottom:24px;left:-24px;border-radius:var(--r16);padding:13px 16px;display:flex;align-items:center;gap:12px;z-index:2;animation:flt2 5s ease-in-out 1s infinite}
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 @keyframes flt2{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-10px) rotate(0deg)}}
 .hvb-icon{font-size:1.3rem}
 .hvb-label{font-size:.7rem;color:var(--s400)}
 .hvb-val{font-size:1rem;font-weight:700;color:#fff}
 .hvb-trend{font-size:.72rem;color:var(--suc);font-weight:600}
 /* Floating doc */
-<<<<<<< HEAD
 .hv-docbadge{position:absolute;bottom:-52px;right:-16px;border-radius:var(--r16);padding:11px 14px;display:flex;align-items:center;gap:10px;z-index:2;animation:flt3 6s ease-in-out .5s infinite}
-=======
-.hv-docbadge{position:absolute;bottom:90px;right:-16px;border-radius:var(--r16);padding:11px 14px;display:flex;align-items:center;gap:10px;z-index:2;animation:flt3 6s ease-in-out .5s infinite}
->>>>>>> c7f26c1c91c93ef7a73a33639a319a483c319c81
 @keyframes flt3{0%,100%{transform:translateY(0) rotate(1deg)}50%{transform:translateY(-8px) rotate(0deg)}}
 .docb-name{font-size:.78rem;font-weight:600;color:#fff}
 .docb-meta{font-size:.7rem;color:var(--s400)}
